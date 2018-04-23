@@ -49,10 +49,17 @@
     <Compile Include="Domain\Product.cs" />
     <Compile Include="Domain\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ICategoryRepository.cs" />
+    <Compile Include="Repositories\IComplainRepository.cs" />
+    <Compile Include="Repositories\IComplaintStatusRepository.cs" />
+    <Compile Include="Repositories\IDataRepository.cs" />
+    <Compile Include="Repositories\INewsRepository.cs" />
+    <Compile Include="Repositories\IOrdersRepository.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="Repositories\IUserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domain\" />
-    <Folder Include="Repositories" />
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
